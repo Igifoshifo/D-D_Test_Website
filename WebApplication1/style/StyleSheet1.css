@@ -1,0 +1,216 @@
+﻿/*--Misc--*/
+body {
+	background-color: black;
+	margin: 0 auto;
+	width: 1400px;
+}
+
+main {
+	color: white;
+	background-color: black;
+}
+
+fieldset {
+	border-style: solid;
+	border-color: black;
+}
+
+table, th, td {
+	border: 1px solid black;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+footer {
+	font-size: .80em;
+	font-style: italic;
+	padding-top: 15px;
+	background-color: #262626;
+	color: white;
+	text-align: center;
+}
+
+header {
+	background-color: #595959;
+	color: black;
+	text-align: center;
+	font-size: 60pt;
+	background-image: url("/images/dragon.png");
+	font-family: Impact, Times, serif;
+}
+
+/*--Description List--*/
+dl {
+	border: 2px solid #ccc;
+	background-color: #262626;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 0 110px;
+}
+
+
+/*---------------Classes-----------------*/
+
+/*--Menu Setup--*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #262626;
+}
+
+li {
+	float: left;
+}
+
+	li a {
+		display: block;
+		color: white;
+		padding: 14px 16px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+		li a:hover {
+			background-color: #737373;
+			color: white;
+		}
+
+div.color {
+	color: white;
+}
+
+/*--Gridview Styling--*/
+.Grid {
+	width: 100%;
+	background-color: white;
+	margin: 5px 0 10px 0;
+	border: solid 5px #262626;
+	border-collapse: collapse;
+}
+
+	.Grid td {
+		padding: 2px;
+		border: solid 2px #c1c1c1;
+		color: #717171;
+	}
+
+	.Grid th {
+		padding: 4px 2px;
+		color: white;
+		background: #424242;
+		border-left: solid 2px black;
+		font-size: 0.9em;
+	}
+
+	.Grid .alt {
+		background: #fcfcfc; /*Offwhite*/
+	}
+
+	.Grid .pgr {
+		background: #424242;
+	}
+
+		.Grid .pgr table {
+			margin: 5px 0;
+		}
+
+		.Grid .pgr td {
+			border-width: 0;
+			padding: 0 6px;
+			border-left: solid 1px #262626;
+			font-weight: bold;
+			color: white;
+			line-height: 12px;
+		}
+
+		.Grid .pgr a {
+			color: #666666;
+			text-decoration: none;
+		}
+
+			.Grid .pgr a:hover {
+				color: black;
+				text-decoration: none;
+			}
+
+
+/*--Validation Text Color--*/
+.required {
+	color: Red;
+}
+
+/*--Textboxes and Buttons--*/
+.textStyle input[type=text] {
+	height: 35px;
+	width: 300px;
+	padding: 15px;
+	border: solid 1px grey;
+	margin-top: 8px;
+	font-size: 17px;
+}
+
+.button {
+	background-color: #262626;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	height: 40px;
+	width: 150px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.textStyle2 input[type=text] {
+	height: 20px;
+	width: 400px;
+	padding: 15px;
+	border: solid 1px grey;
+	margin-top: 8px;
+	font-size: 17px;
+}
+
+.textStyle3 input[type=text] {
+	height: 70px;
+	width: 600px;
+	padding: 15px;
+	border: solid 1px grey;
+	margin-top: 8px;
+	font-size: 17px;
+	text-align: left;
+}
+
+.dropdownStlye {
+	width: 400px;
+	height: 70px;
+	border: none;
+	padding: 3px;
+	font-size: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button2 {
+	background-color: #004d00;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	height: 100px;
+	width: 400px;
+	cursor: pointer;
+	margin: 5px;
+}
